@@ -4,13 +4,14 @@ import { getFirestore, doc, getDoc, setDoc, collection, addDoc, getDocs, query, 
 
 // 1) Paste your Firebase Web App config here. This config is safe to expose; security comes from Auth + Firestore Rules.
 const firebaseConfig = {
-  apiKey: 'YOUR_FIREBASE_WEB_API_KEY',
-  authDomain: 'YOUR_PROJECT.firebaseapp.com',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_PROJECT.firebasestorage.app',
-  messagingSenderId: 'YOUR_SENDER_ID',
-  appId: 'YOUR_APP_ID'
-};
+    apiKey: "AIzaSyAsoQ2m5ggQSnMw3mWSo5tJHt7HXsdh_1U",
+    authDomain: "studyforgeai-c6d59.firebaseapp.com",
+    projectId: "studyforgeai-c6d59",
+    storageBucket: "studyforgeai-c6d59.firebasestorage.app",
+    messagingSenderId: "421759144326",
+    appId: "1:421759144326:web:c20aa18e743c4affaedc07",
+    measurementId: "G-0XKFN9GFXY"
+  };
 // 2) Replace this after deploying the Cloudflare Worker.
 const API_URL = 'https://YOUR-WORKER.workers.dev/api/study';
 
