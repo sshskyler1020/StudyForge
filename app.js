@@ -13,7 +13,7 @@ const firebaseConfig = {
     measurementId: "G-0XKFN9GFXY"
   };
 // 2) Replace this after deploying the Cloudflare Worker.
-const API_URL = 'https://YOUR-WORKER.workers.dev/api/study';
+const API_URL = 'https://studyforge-api.skylerhooks2011.workers.dev/api/study';
 
 const app=initializeApp(firebaseConfig), auth=getAuth(app), db=getFirestore(app);
 let quizData=[], currentStudy=null, user=null;
